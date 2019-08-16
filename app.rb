@@ -14,6 +14,7 @@ class App < Sinatra::Base
     @pf = params[:pf]
     @sg = params[:sg]
     @c = params[:c]
+    binding.pry 
     erb :team 
   end 
 
